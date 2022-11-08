@@ -2,11 +2,11 @@
 
 namespace App\Controllers;
 
-class About extends BaseController
+class Adopt extends BaseController
 {
     public function index()
     {
-        return view('About');
+        return view('Adopt');
         
         
     }

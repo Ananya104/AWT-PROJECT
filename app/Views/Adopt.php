@@ -15,7 +15,7 @@
   
   <!--External Style Sheet-->
  
-  <link rel="stylesheet" href="public/style.css">
+  <link rel="stylesheet" href="/MyProject/public/style.css">
   
   <!--Google fonts links-->
 
@@ -50,7 +50,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <i class="fa-solid fa-shield-dog fa-2x"></i>
-        <a class="navbar-brand" href="index.html">DogNation</a>
+        <a class="navbar-brand" href="index.php">DogNation</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -67,7 +67,7 @@
               
             </li>
             <li class="nav-item">
-              <a class="nav-link" href= "contact.php">Contact </a>
+              <a class="nav-link" href= "Contact.php">Contact </a>
             </li>
           </ul>
           
@@ -84,34 +84,34 @@
  <h3 class="sub-head adop"> OUR PUPS UP FOR ADOPTION !!</h3>
  <div class="row">
      <div class="col-4">
-         <img src="images/adop-1.jpg"class="adop-img">
+         <img src="/MyProject/images/adop-1.jpg"class="adop-img">
          <h3>Harry</h3>
          
          
      </div>
 <div class="col-4">
-    <img src="images/adop-2.jpg"class="adop-img">
+    <img src="/MyProject/images/adop-2.jpg"class="adop-img">
     <h3>Rubble</h3>
 
 </div>
 <div class="col-4">
-    <img src="images/adop-3.jpg"class="adop-img">
+    <img src="/MyProject/images/adop-3.jpg"class="adop-img">
     <h3>Jimmy</h3>
 </div>
  </div>
 
  <div class="row">
     <div class="col-4">
-        <img src="images/adop-4.jpg"class="adop-img">
+        <img src="/MyProject/images/adop-4.jpg"class="adop-img">
         <h3>Boxer</h3>
     </div>
     <div class="col-4">
-        <img src="images/adop-6.jpg" class="adop-img">
+        <img src="/MyProject/images/adop-6.jpg" class="adop-img">
         <h3>Pluto</h3>
     </div>
 
     <div class="col-4">
-        <img src="images/adop-8.jpg" class="adop-img img-8">
+        <img src="/MyProject/images/adop-8.jpg" class="adop-img img-8">
         <h3>Daisy</h3>
     </div>
  </div>

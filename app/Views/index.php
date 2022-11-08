@@ -49,7 +49,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <i class="fa-solid fa-shield-dog fa-2x"></i>
-        <a class="navbar-brand" href="/CI/public/index.php">DogNation</a>
+        <a class="navbar-brand" href="index.php">DogNation</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -96,17 +96,17 @@
 
 
  <li class="nav-item">
-<a class="nav-link" href="/CI/public/index.php/About.php">About</a>
+<a class="nav-link" href="About.php">About</a>
  </li>
             <li class="nav-item">
-              <a class="nav-link" href="/CI/public/Adopt.php">Adopt</a>
+              <a class="nav-link" href="Adopt.php">Adopt</a>
             </li>
             <li class="nav-item dropdown">
               
               
             </li>
             <li class="nav-item">
-              <a class="nav-link" href= "/CI/public/index.php/contact.php">Contact </a>
+              <a class="nav-link" href= "Contact.php">Contact </a>
             </li>
           </ul>
           

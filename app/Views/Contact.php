@@ -15,7 +15,7 @@
   
   <!--External Style Sheet-->
  
-  <link rel="stylesheet" href="public/style.css">
+  <link rel="stylesheet" href="/MyProject/public/style.css">
   
   <!--Google fonts-->
 
@@ -63,7 +63,7 @@
                       
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href= "contact.php">Contact </a>
+                      <a class="nav-link" href= "Contact.php">Contact </a>
                     </li>
                   </ul>
                   
