@@ -6,7 +6,7 @@
 
   <!--Favicon link-->
 
-  <link href="favicon.ico" rel="icon" type="image/x-icon">
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
 
   <!--Bootstrap links-->
 
@@ -17,15 +17,15 @@
  
   <link rel="stylesheet" href="/MyProject/public/style.css">
   
-  <!--Google fonts links-->
+  <!--Google fonts-->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
  
 <!--Javascript &Jquery for bootstrap-->
 
@@ -46,106 +46,96 @@
     <!-- Nav Bar -->
 
 <div class="container-fluid">
-  
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <i class="fa-solid fa-shield-dog fa-2x"></i>
-        <a class="navbar-brand" href="<?php echo base_url(); ?>/index.php ">DogNation</a>
+        <a class="navbar-brand" href="<?php echo base_url(); ?>/index.php">DogNation</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
+
+
+<ul class="navbar-nav ms-auto">
+  <li class="nav-item">
+<a class="nav-link" href="<?php echo base_url(); ?>/index.php/signup">SignUp</a>
+ </li>
+         
+  
+
+ <li class="nav-item">
+<a class="nav-link" href="<?php echo base_url(); ?>/index.php/about ">About</a>
+ </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url(); ?>/index.php/about ">About</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="<?php echo base_url(); ?>/index.php/adopt ">Adopt</a>
+              <a class="nav-link" href="<?php echo base_url(); ?>/index.php/adopt" >Adopt</a>
             </li>
             <li class="nav-item dropdown">
               
               
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url(); ?>/index.php/contact ">Contact</a>
+              <a class="nav-link" href= "<?php echo base_url(); ?>/index.php/contact" >Contact </a>
             </li>
           </ul>
           
         </div>
       </div>
-     
     </nav>
-</div>
 
-<header>
-    <div class="text-center">
-            
-                <h1>Take home a dash of happiness</h1>
- <h3 class="sub-head adop"> OUR PUPS UP FOR ADOPTION !!</h3>
- <div class="row">
-     <div class="col-4">
-         <img src="/MyProject/images/adop-1.jpg"class="adop-img">
-         <h3>Harry</h3>
-         
-         
-     </div>
-<div class="col-4">
-    <img src="/MyProject/images/adop-2.jpg"class="adop-img">
-    <h3>Rubble</h3>
 
-</div>
-<div class="col-4">
-    <img src="/MyProject/images/adop-3.jpg"class="adop-img">
-    <h3>Jimmy</h3>
-</div>
- </div>
+<body>
 
- <div class="row">
-    <div class="col-4">
-        <img src="/MyProject/images/adop-4.jpg"class="adop-img">
-        <h3>Boxer</h3>
+    <div class="container">
+
+        <div class="row justify-content-md-center">
+
+            <div class="col-5">
+
+                <h2>Log In</h2>        
+
+                <?php if(session()->getFlashdata('msg')):?>
+
+                    <div class="alert alert-warning">
+
+                       <?= session()->getFlashdata('msg') ?>
+
+                    </div>
+
+                <?php endif;?>
+
+                <form action="<?php echo base_url(); ?>/index.php/signin" method="post">
+                
+                 <?= csrf_field() ?>
+
+                    <div class="form-group mb-3">
+
+                        <input type="email" name="email" placeholder="Email" value="<?= set_value('email') ?>" class="form-control" >
+
+                    </div>
+
+
+                    <div class="form-group mb-3">
+
+                        <input type="password" name="password" placeholder="Password" class="form-control" >
+
+                    </div>
+
+                    <div class="d-grid">
+
+                         <button type="submit" class="btn btn-primary">Signin</button>
+
+                    </div>     
+
+                </form>
+
+            </div>
+
+        </div>
+
     </div>
-    <div class="col-4">
-        <img src="/MyProject/images/adop-6.jpg" class="adop-img">
-        <h3>Pluto</h3>
-    </div>
-
-    <div class="col-4">
-        <img src="/MyProject/images/adop-8.jpg" class="adop-img img-8">
-        <h3>Daisy</h3>
-    </div>
- </div>
- 
- <section id="adop-process">
-     <h2 class="display-3">A 3-Step Process</h2>
-     <div class="row">
-         <div class="col-4"><i class="fa-solid fa-check-double fa-4x icon"></i> <h3
-          >You search and pick your dog from website.</div>
-         <div class="col-4"></div>
-         <div class="col-4"></div>
-     </div>
-     <div class="row">
-        <div class="col-4"></div>
-        <div class="col-4"><i class="fa-solid fa-paw fa-4x icon"></i><h3> You meet the dog in person.</div>
-        <div class="col-4"></div>
-    </div>
-
-    <div class="row">
-        <div class="col-4"></div>
-        <div class="col-4"></div>
-        <div class="col-4"><i class="fa-sharp fa-solid fa-file fa-4x icon"></i> <h3>A dash of formailities and you are done</div>
-    </div>
-
-    
- </section>
- 
-
-
-
-
-
-
-<footer id="footer" class="white-section">
+    <!--Footer-->
+  
+  <footer id="footer" class="white-section">
     <div class="container-fluid">
       <h4>Join our Dog-fam!</h4>
     <i class="fa-brands fa-square-twitter fa-2x social-icon"></i>
@@ -155,3 +145,7 @@
     <p id="copyright">© Copyright DogNation</p>
     </div>
   </footer>
+
+</body>
+
+</html>

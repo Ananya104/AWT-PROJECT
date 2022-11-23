@@ -17,11 +17,16 @@ class Filters extends BaseConfig
      *
      * @var array
      */
-   public $aliases = [
-'csrf'     => \CodeIgniter\Filters\CSRF::class,
-'toolbar'  => \CodeIgniter\Filters\DebugToolbar::class,
-'honeypot' => \CodeIgniter\Filters\Honeypot::class,
-'auth'     => \App\Filters\Auth::class,
+ public $aliases = [
+
+    'csrf'     => \CodeIgniter\Filters\CSRF::class,
+
+    'toolbar'  => \CodeIgniter\Filters\DebugToolbar::class,
+
+    'honeypot' => \CodeIgniter\Filters\Honeypot::class,
+
+    'authGuard' => \App\Filters\AuthGuard::class,
+
 ];
 
     /**

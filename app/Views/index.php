@@ -57,56 +57,35 @@
 
 
 <ul class="navbar-nav ms-auto">
-  <li class="nav-item" id="register-link">
-
-  <div class="login-modal modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Register Here </h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
+  <li class="nav-item">
+  <div class="dropdown">
+  <button class="btn btn-warning dropdown-toggle nav-link reg-new" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Register
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
   
-          <input type="email" id="defaultForm-email" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
-        </div>
-
-        <div class="md-form mb-4">
-          <input type="password" id="defaultForm-pass" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
-        </div>
-
-      </div>
-      <div class="modal-footer d-flex justify-content-center">
-        <button type=button class="btn btn-primary">Sign In</button>
-      </div>
-    </div>
+    <a class="dropdown-item" href="<?php echo base_url();?>/index.php/signup">Signup</a>
+     <a class="dropdown-item" href="<?php echo base_url();?>/index.php/signin">Signin</a>
+   
+    
   </div>
 </div>
-
-<div class="text-center">
-  <a href="" class="btn btn-default btn-rounded mb-4 nav-link"  data-toggle="modal" data-target="#modalLoginForm">Register</a>
-</div>
-</li>
-
+ </li>
+         
+  
 
  <li class="nav-item">
-<a class="nav-link" href="About.php">About</a>
+<a class="nav-link" href="<?php echo base_url(); ?>/index.php/about ">About</a>
  </li>
             <li class="nav-item">
-              <a class="nav-link" href="Adopt.php">Adopt</a>
+              <a class="nav-link" href="<?php echo base_url(); ?>/index.php/adopt" >Adopt</a>
             </li>
             <li class="nav-item dropdown">
               
               
             </li>
             <li class="nav-item">
-              <a class="nav-link" href= "Contact.php">Contact </a>
+              <a class="nav-link" href= "<?php echo base_url(); ?>/index.php/contact" >Contact </a>
             </li>
           </ul>
           
