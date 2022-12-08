@@ -16,11 +16,8 @@ class ProfileController extends Controller
 
         $session = session();
 
-        echo "<centre><h3>Welcome  ".$session->get('name'); 
+         return redirect()->to('/about');
       
-      
-      
-        echo '<br> <br> To continue , <a href = "http://localhost/CI-1/public/index.php/about">Click Here!</a>';
     
     }
 

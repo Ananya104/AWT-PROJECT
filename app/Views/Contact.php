@@ -15,7 +15,7 @@
   
   <!--External Style Sheet-->
  
-  <link rel="stylesheet" href="/MyProject/public/style.css">
+  <link rel="stylesheet" href="/CI-1/public/public/style.css">
   
   <!--Google fonts-->
 
@@ -78,6 +78,7 @@
 <div class="container py-4">
 
     <form id="contactForm">
+    < <?= csrf_field() ?>
   
       
       <div class="mb-3">
@@ -121,7 +122,8 @@
   
       
       <div class="d-grid">
-        <button class="btn btn-primary btn-lg submit-btn" type="submit">Submit</button>
+        <a class="submit-btn btn btn-primary btn-lg" type="submit" href="<?php echo base_url(); ?>/index.php/index ">Submit</a>
+      
       </div>
   
     </form>

@@ -15,7 +15,7 @@
   
   <!--External Style Sheet-->
  
-  <link rel="stylesheet" href="/MyProject/public/style.css">
+  <link rel="stylesheet" href="/CI-1/public/style.css">
   
   <!--Google fonts-->
 

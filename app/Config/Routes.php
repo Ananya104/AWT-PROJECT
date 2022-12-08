@@ -45,6 +45,13 @@ $routes->get('/signin', 'SigninController::index');
 $routes->match(['get', 'post'], '/signin', 'SigninController::loginAuth');
 
 $routes->get('/profile', 'ProfileController::index',['filter' => 'authGuard']);
+// CRUD RESTful Routes
+$routes->get('users-list', 'UserCrud::index');
+$routes->get('user-form', 'UserCrud::create');
+$routes->post('submit-form', 'UserCrud::store');
+$routes->get('edit-view/(:num)', 'UserCrud::singleUser/$1');
+$routes->post('update', 'UserCrud::update');
+$routes->get('delete/(:num)', 'UserCrud::delete/$1');
 
 $routes->get('/about', 'About::index');
 $routes->get('/adopt', 'Adopt::index');

@@ -15,7 +15,7 @@
   
   <!--External Style Sheet-->
  
-  <link rel="stylesheet" href="/MyProject/public/style.css">
+  <link rel="stylesheet" href="/CI-1/public/public/style.css">
   
   <!--Google fonts links-->
 
@@ -84,34 +84,34 @@
  <h3 class="sub-head adop"> OUR PUPS UP FOR ADOPTION !!</h3>
  <div class="row">
      <div class="col-4">
-         <img src="/MyProject/images/adop-1.jpg"class="adop-img">
+         <img src="/CI-1/public/images/adop-1.jpg"class="adop-img">
          <h3>Harry</h3>
          
          
      </div>
 <div class="col-4">
-    <img src="/MyProject/images/adop-2.jpg"class="adop-img">
+    <img src="/CI-1/public/images/adop-2.jpg"class="adop-img">
     <h3>Rubble</h3>
 
 </div>
 <div class="col-4">
-    <img src="/MyProject/images/adop-3.jpg"class="adop-img">
+    <img src="/CI-1/public/images/adop-3.jpg"class="adop-img">
     <h3>Jimmy</h3>
 </div>
  </div>
 
  <div class="row">
     <div class="col-4">
-        <img src="/MyProject/images/adop-4.jpg"class="adop-img">
+        <img src="/CI-1/public/images/adop-4.jpg"class="adop-img">
         <h3>Boxer</h3>
     </div>
     <div class="col-4">
-        <img src="/MyProject/images/adop-6.jpg" class="adop-img">
+        <img src="/CI-1/public/images/adop-6.jpg" class="adop-img">
         <h3>Pluto</h3>
     </div>
 
     <div class="col-4">
-        <img src="/MyProject/images/adop-8.jpg" class="adop-img img-8">
+        <img src="/CI-1/public/images/adop-8.jpg" class="adop-img img-8">
         <h3>Daisy</h3>
     </div>
  </div>

@@ -15,7 +15,7 @@
   
   <!--External Style Sheet-->
  
-  <link rel="stylesheet" href="/MyProject/public/style.css">
+  <link rel="stylesheet" href="/CI-1/public/public/style.css">
   
   <!--Google fonts-->
 
@@ -84,11 +84,11 @@
           
               <h1>Welcome to DogNation!</h1>
               <h3 class="sub-head">WE BELIEVE ADOPTION IS THE BEST OPTION</h3>
-              <img src="/MyProject/images/dog-img.jpg" id="img-1" class="about-img">
-              <img src="/MyProject/images/dog-img2.jpg" id="img-2" class="about-img">
-              <img src="/MyProject/images/dog-img3.jpg" id="img-3" class="about-img">
-              <img src="/MyProject/images/dog-img4.jpg" id="img-3" class="about-img">
-              <img src="/MyProject/images/dog-img5.webp" id="img-3" class="about-img">
+              <img src="/CI-1/public/images/dog-img.jpg" id="img-1" class="about-img">
+              <img src="/CI-1/public/images/dog-img2.jpg" id="img-2" class="about-img">
+              <img src="/CI-1/public/images/dog-img3.jpg" id="img-3" class="about-img">
+              <img src="/CI-1/public/images/dog-img4.jpg" id="img-3" class="about-img">
+              <img src="/CI-1/public/images/dog-img5.webp" id="img-3" class="about-img">
 
               <section id="about-content">
             
